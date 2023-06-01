@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(90deg, orange,blue);
+}
+.container {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+input {
+    border: 1px solid silver;
+    border-radius: 2px;
+    padding: 3px;
+    margin-right:5px;
+    outline: none;
+}
+button {
+    width: 80px;
+    background-color: rgb(24, 24, 58);
+    color: white;
+    cursor: pointer;
+    border:none;
+    border-radius: 3px;
+
+}
+button:hover {
+    background-color: silver;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
